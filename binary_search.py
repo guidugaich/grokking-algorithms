@@ -16,6 +16,3 @@ def binary_search(arr, target):
 print(binary_search([1,3,5,7,9], 3))
 print(binary_search([1,3,5,7,9], 11))
 print(binary_search([1,3,5,7,9], 9))
-
-
-

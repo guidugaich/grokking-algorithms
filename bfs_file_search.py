@@ -10,9 +10,9 @@ def print_file_names(start_dir):
     dir = search_queue.popleft() 
     for file in sorted(listdir(dir)):
       path = join(dir, file)
-      if isfile(path):
+      if isfile(path) and '.git' not in path:
         print(file)
-      else:
+      elif '.git' not in path:
         search_queue.append(path)
 
-print_file_names('/home/remessaonline/projects/grokking-algorithms')
+print_file_names('/home/guidugaich/projects/grokking-algorithms')

@@ -11,4 +11,4 @@ def print_file_names(dir):
       print_file_names(path)
 
 
-print_file_names('/home/remessaonline/projects/grokking-algorithms')
+print_file_names('/home/guidugaich/projects/grokking-algorithms')
